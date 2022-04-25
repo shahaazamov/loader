@@ -1,0 +1,111 @@
+
+@import url("https://fonts.googleapis.com/css2?family=Newsreader:wght@200&display=swap");
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    align-items: center;
+    display: flex;
+    font-family: "Newsreader", serif;
+    margin: 0;
+    overflow: hidden;
+    justify-content: center;
+}
+
+.bg {
+    background: url("./background.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;
+    position: absolute;
+    top: -30px;
+    left: -30px;
+    width: 100vw;
+    height: 100vh;
+    width: calc(100vw + 60px);
+    height: calc(100vh + 60px);
+    z-index: -1;
+    filter: blur(60px);
+}
+
+.loading-text {
+    font-size: 50px;
+    color: white;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* *{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url(./background.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.bg {
+    
+}
+.loading-text {
+    text-align: center;
+    font-size: 30px;
+    color:#fff;
+    font-weight: 900;
+    
+} */
+/* .card {
+    width:300px;
+    height: 100px;
+    background-color: aqua;
+    border:1px solid;
+}
+.title {
+    font-weight: 700;
+    font-size: 20px;
+} */
